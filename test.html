@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>City District Government, Multan</title>
+    <style media="screen">
+    html, body, iframe {
+width: 100%;
+height: 100%;
+border: none;
+margin: 0px;
+}
+
+.top {
+position: absolute;
+top: 10px;
+height: 36px;
+width: 100%;
+visibility: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: Blue;
+}
+
+.active {
+    background-color: black;
+}
+    </style>
+    <script type="text/javascript">
+    var cj = $('.clickjack');
+
+cj.click(function() {
+alert('gotcha!');
+});
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="scammingothers.html">Departments</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="http://www.multan.gov.pk/contactus.php?data=68">Contact information</a></li>
+      <li><a href="http://www.multan.gov.pk/page.php?data=24">City Maps</a></li>
+      <li style="float:right"><a class="active" href="http://www.multan.gov.pk/index.php">Home</a></li>
+    </ul>
+    <iframe src="http://www.multan.gov.pk/files.php?id=1"></iframe>
+<div class="top">
+  <div class="top-nav">
+    <div class="clickjack">You've been Hacked</div>
+  </div>
+</div>
+  </body>
+</html>
